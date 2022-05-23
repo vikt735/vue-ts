@@ -20,6 +20,6 @@
   "about-list": {
     "vue-libs": "vue 2,vue-vuex, vue-components, vue-router, vue-i18n",
     "css": "sass-loader, node-sass, element-ui",
-    "http": "axios"
+    "http": "axios, typescript"
   }
 }
