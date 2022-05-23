@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+.el-main {
+  flex:1;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.fade-enter-active {
+  animation: slidePageIn 1s forwards;
+  animation-timing-function: cubic-bezier(0.8, -0.49, 0.36, 1);
+}
+
+.fade-leave-active {
+  animation: slidePageDown 1s forwards;
+  animation-timing-function: cubic-bezier(0.8, -0.49, 0.36, 1);
+}
+
+@keyframes slidePageIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slidePageDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+    transform: translateY(100%);
+  }
+}
+p {
+  font-size: 18px;
+  color: #409EFF;
+}

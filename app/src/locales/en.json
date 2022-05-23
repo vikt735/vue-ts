@@ -1,0 +1,30 @@
+{
+  "message": "hello i18n !!",
+  "hello": "{msg} world",
+  "hello2": "{1} world",
+  "car": "car | cars",
+  "apple": "no apples | one apple | {count} apples",
+  "menu":{
+    "home":"Home",
+    "about":"About"
+  },
+  "buttons":{
+    "button-logout":"Logout"
+  },
+  "footer-text": "BLOG",
+  "article":{
+    "destination-title":"Destination",
+    "added-title":"Added",
+    "view-more-button": "More",
+    "back-button": "Back to atricles"
+  },
+  "search": "search",
+  "tooltip":"Change view",
+  "about": "Using libraries in application",
+  "about-list": {
+    "vue-libs": "vue 2,vue-vuex, vue-components, vue-router, vue-i18n",
+    "css": "sass-loader, node-sass, element-ui",
+    "http": "axios"
+
+  }
+}

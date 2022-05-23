@@ -1,0 +1,5 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "integrationFolder": "test/e2e/spec",
+  "baseUrl": "http://localhost:8081/"
+}

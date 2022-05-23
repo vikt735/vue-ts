@@ -1,0 +1,25 @@
+{
+  "message": "Привет !!!",
+  "menu":{
+    "home":"Главная",
+    "about":"О нас"
+  },
+  "buttons":{
+    "button-logout":"Выход"
+  },
+  "footer-text": "БЛОГ",
+  "article":{
+    "destination-title":"Место",
+    "added-title":"Автор",
+    "view-more-button": "Узнать больше",
+    "back-button": "Назад к главной"
+  },
+  "search": "поиск",
+  "tooltip":"Изменить вид",
+  "about": "Использование библиотек в приложении",
+  "about-list": {
+    "vue-libs": "vue 2,vue-vuex, vue-components, vue-router, vue-i18n",
+    "css": "sass-loader, node-sass, element-ui",
+    "http": "axios"
+  }
+}
